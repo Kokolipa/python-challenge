@@ -13,7 +13,7 @@ from collections import Counter
 
 
 dataset = []
-with open("/Users/galbeeir/Desktop/Starter_Code/PyPoll/Resources/election_data.csv", "r") as file:
+with open("/Users/galbeeir/Desktop/git/python-challenge/PyPoll/Resources/election_data.csv", "r") as file:
     
     # create a csv reader object
     data = cv.reader(file)

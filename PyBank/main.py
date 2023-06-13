@@ -13,7 +13,7 @@ import csv as cv
 # Storing our dataset in the dataset variable
 # *------------------------------------------------------------------------------------------------------------------------
 dataset = []
-with open("/Users/galbeeir/Desktop/Starter_Code/PyBank/Resources/budget_data.csv", "r") as file:
+with open("/Users/galbeeir/Desktop/git/python-challenge/PyBank/Resources/budget_data.csv", "r") as file:
     # create a csv reader object
     data = cv.reader(file)
 
